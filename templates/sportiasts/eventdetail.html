@@ -3,6 +3,7 @@
 {% block title %}{{object.eventt}}{% endblock title %}
 {% block content %}
 <div class="container">
+<a href="{% url 'home' %}"><button class="btn btn-primary">Home</button></a>
 <h1>{{object.eventt}}</h1>
 <h2>{{object.date}}</h2>
 <h3>{{object.location}}</h3>
